@@ -20,6 +20,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .popup-container {
@@ -42,6 +43,7 @@
     right: 2%;
     top: 3%;
     animation: slide-in linear 300ms;
+    z-index: 10;
 }
 
 .slideOut {
