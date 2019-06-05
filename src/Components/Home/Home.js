@@ -4,6 +4,10 @@ import { Parallax } from "react-parallax";
 import heroImage from '../../Assets/Logo.png';
 import './Home.css'
 import About from '../About/About'
+import Content from '../Content/Content'
+import Content2 from '../Content2/Content2';
+import Banner from '../Banner/Banner'
+import Video from '../Video/Video'
 
 
 
@@ -24,8 +28,10 @@ export default class Home extends Component {
         </div>
         <div className="about-container"/>
         <About />
-        
-        
+        <Content />
+        <Content2 /> 
+        <Video />
+        <Banner />
       </div>
     );
   }
