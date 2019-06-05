@@ -27,7 +27,7 @@
 }
 
 .spell-1 {
-    background-image: url(../../Assets/Icon_Arcane.png);
+    background-image: url(../../Assets/Spell-2.png);
     height: 95%;
     width: 30%;
     background-position: center;
@@ -36,7 +36,7 @@
 }
 
 .spell-2 {
-    background-image: url(../../Assets/Icon_Axe.png);
+    background-image: url(../../Assets/Spell-1.png);
     height: 95%;
     width: 30%;
     background-position: center;
@@ -45,7 +45,7 @@
 }
 
 .spell-3 {
-    background-image: url(../../Assets/Icon_BomberBow.png);    
+    background-image: url(../../Assets/Spell-3.png);    
     height: 95%;
     width: 30%;
     background-position: center;
@@ -63,7 +63,7 @@
 }
 
 .spell-4 {
-    background-image: url(../../Assets/Icon_CarpenterAxe.png);    
+    background-image: url(../../Assets/Spell-4.png);    
     height: 95%;
     width: 30%;
     background-position: center;
@@ -72,7 +72,7 @@
 }
 
 .spell-5 {
-    background-image: url(../../Assets/Icon_CopperSword.png);    
+    background-image: url(../../Assets/Spell-6.png);    
     height: 95%;
     width: 30%;
     background-position: center;
@@ -81,7 +81,7 @@
 }
 
 .spell-6 {
-    background-image: url(../../Assets/Icon_ThorneBow.png);
+    background-image: url(../../Assets/Spell-5.png);
     height: 95%;
     width: 30%;
     background-position: center;

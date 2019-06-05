@@ -6,7 +6,7 @@ import gif from '../../Assets/monster.gif'
 export default class About extends Component {
   render() {
     return (
-      <div className='campfire'>
+      <div id='about' className='campfire'>
         <div className='about'>
 
         </div>

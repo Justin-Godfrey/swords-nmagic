@@ -5,7 +5,7 @@ import Content2 from '../Content2/Content2'
 export default class Content extends Component {
   render() {
     return (
-      <div className="content">
+      <div id='content' className="content">
         <div className="content-description">
           <h1>WEAPONS</h1>
           <h2>here is my test of what I am going to say in here</h2>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Navbar extends Component {
   constructor() {
@@ -46,11 +47,12 @@ class Navbar extends Component {
       <div className="navbar-container">
         <nav className="navbar">
           <div className='logo-container' />
-          <div>
-            <Link to="/#game">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/content">Content</Link>
-            <Link to="/contact">Contact</Link>
+          <div className='links'>
+            <AnchorLink href='#home'>Home</AnchorLink>
+            <AnchorLink href='#about' offset='-440'>About</AnchorLink>
+            <AnchorLink href='#content'>Content</AnchorLink>
+            <AnchorLink href='#social'>Social</AnchorLink>
+            <Link to='community-highlights'>Community Highlights</Link>
           </div>
         </nav>
         <div className="popup-container" ref={this.popUpRef}>

@@ -3,6 +3,21 @@
     width: 100vw;
 }
 
+.links {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.links  a {
+    color: white;
+    text-decoration: none;
+    
+}
+
 .logo-container {
     background-image: url('../../Assets/SnMNewLogo.png');
     width: 5vw;

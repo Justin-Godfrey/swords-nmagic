@@ -8,6 +8,22 @@
     background: white;
 }
 
+.content-break {
+    width: 100vw;
+    height: 10px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-break span {
+    width: 80%;
+    height: 2px;
+    background: black;
+}
+
 .img1 {
     background-image: url('../../Assets/ArcherCharacter.png');
     width: 20%;
